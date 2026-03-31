@@ -415,5 +415,172 @@
       "saberes_basicos": ["SB1"],
       "description_html": "<p>Prepara y resuelve una colección personal de ejercicios del Tema 1:</p><ul><li>2 de clasificación de números</li><li>2 de fracción generatriz</li><li>2 de intervalos o valor absoluto</li><li>2 de potencias o radicales</li><li>1 de racionalización</li><li>1 de logaritmos</li></ul><p>En cada ejercicio indica el procedimiento seguido y una comprobación final cuando sea posible.</p>"
     }
-  ]
+  ],
+  "solved_exercises": [
+  {
+    "id": "sf01",
+    "title": "Ejercicio 6. Cuadrado inscrito",
+    "difficulty": "media",
+    "keywords": ["geometría", "irracionales"],
+    "saberes_basicos": ["SB1"],
+    "problem_html": "<p>Calcula el lado de un cuadrado inscrito en una circunferencia de 20 cm de diámetro. ¿El resultado es racional o irracional?</p>",
+    "strategy_html": "<p>La diagonal del cuadrado coincide con el diámetro.</p>",
+    "approach_html": "<p>Usamos la relación $d = l\\sqrt{2}$.</p>",
+    "solution_steps": [
+      {
+        "step": 1,
+        "explanation_html": "<p>El diámetro es 20 cm.</p>",
+        "latex": "d=20"
+      },
+      {
+        "step": 2,
+        "explanation_html": "<p>Relación diagonal-lado.</p>",
+        "latex": "20=l\\sqrt{2}"
+      },
+      {
+        "step": 3,
+        "explanation_html": "<p>Despejamos.</p>",
+        "latex": "l=\\frac{20}{\\sqrt{2}}=10\\sqrt{2}"
+      }
+    ],
+    "common_mistake_html": "<p>Confundir diagonal con lado.</p>",
+    "final_answer_html": "<p>$l=10\\sqrt{2}$ cm, número irracional.</p>",
+    "check_html": "<p>$10\\sqrt{2}\\cdot\\sqrt{2}=20$ ✔</p>"
+  },
+  {
+    "id": "sf02",
+    "title": "Ejercicio 7. Triángulo equilátero",
+    "difficulty": "media",
+    "keywords": ["geometría", "radicales"],
+    "saberes_basicos": ["SB1"],
+    "problem_html": "<p>Calcula la altura y el área de un triángulo equilátero de lado 1.</p>",
+    "strategy_html": "<p>Dividir el triángulo en dos rectángulos.</p>",
+    "approach_html": "<p>Aplicamos Pitágoras.</p>",
+    "solution_steps": [
+      {
+        "step": 1,
+        "explanation_html": "<p>Altura con Pitágoras.</p>",
+        "latex": "h=\\sqrt{1^2-\\left(\\frac{1}{2}\\right)^2}=\\sqrt{\\frac{3}{4}}=\\frac{\\sqrt{3}}{2}"
+      },
+      {
+        "step": 2,
+        "explanation_html": "<p>Área del triángulo.</p>",
+        "latex": "A=\\frac{1\\cdot h}{2}=\\frac{\\sqrt{3}}{4}"
+      }
+    ],
+    "common_mistake_html": "<p>Olvidar dividir entre 2 al calcular el área.</p>",
+    "final_answer_html": "<p>$h=\\frac{\\sqrt{3}}{2}$, $A=\\frac{\\sqrt{3}}{4}$ (irracionales).</p>",
+    "check_html": "<p>Resultado coherente: área positiva y menor que 1.</p>"
+  },
+  {
+    "id": "sf03",
+    "title": "Ejercicio 11. Unión e intersección",
+    "difficulty": "basica",
+    "keywords": ["intervalos"],
+    "saberes_basicos": ["SB1"],
+    "problem_html": "<p>Dados $(−\\infty,8)$ y $[2,+\\infty)$, halla unión e intersección.</p>",
+    "strategy_html": "<p>Representar mentalmente en la recta.</p>",
+    "approach_html": "<p>Buscar zona común y total.</p>",
+    "solution_steps": [
+      {
+        "step": 1,
+        "explanation_html": "<p>Intersección: valores comunes.</p>",
+        "latex": "[2,8)"
+      },
+      {
+        "step": 2,
+        "explanation_html": "<p>Unión: todos los valores.</p>",
+        "latex": "(-\\infty,+\\infty)"
+      }
+    ],
+    "common_mistake_html": "<p>Confundir unión con intersección.</p>",
+    "final_answer_html": "<p>Intersección: $[2,8)$; Unión: $\\mathbb{R}$.</p>",
+    "check_html": "<p>Todo número real queda cubierto.</p>"
+  },
+  {
+    "id": "sf04",
+    "title": "Ejercicio 14a. |x|=5",
+    "difficulty": "basica",
+    "keywords": ["valor absoluto"],
+    "saberes_basicos": ["SB1"],
+    "problem_html": "<p>Resuelve $|x|=5$.</p>",
+    "strategy_html": "<p>Valor absoluto = distancia.</p>",
+    "approach_html": "<p>Plantear dos ecuaciones.</p>",
+    "solution_steps": [
+      {
+        "step": 1,
+        "explanation_html": "<p>Dos casos.</p>",
+        "latex": "x=5 \\; o \\; x=-5"
+      }
+    ],
+    "common_mistake_html": "<p>Olvidar una de las soluciones.</p>",
+    "final_answer_html": "<p>$x=\\pm5$.</p>",
+    "check_html": "<p>$|5|=5$, $|-5|=5$ ✔</p>"
+  },
+  {
+    "id": "sf05",
+    "title": "Ejercicio 22a",
+    "difficulty": "media",
+    "keywords": ["racionalización"],
+    "saberes_basicos": ["SB1"],
+    "problem_html": "<p>$\\frac{2-\\sqrt{2}}{\\sqrt{2}}$</p>",
+    "strategy_html": "<p>Multiplicar por $\\sqrt{2}$.</p>",
+    "approach_html": "<p>Eliminar raíz del denominador.</p>",
+    "solution_steps": [
+      {
+        "step": 1,
+        "explanation_html": "<p>Multiplicamos por $\\sqrt{2}$.</p>",
+        "latex": "\\frac{(2-\\sqrt{2})\\sqrt{2}}{2}"
+      },
+      {
+        "step": 2,
+        "explanation_html": "<p>Operamos.</p>",
+        "latex": "\\frac{2\\sqrt{2}-2}{2}=\\sqrt{2}-1"
+      }
+    ],
+    "common_mistake_html": "<p>No multiplicar todo el numerador.</p>",
+    "final_answer_html": "<p>$\\sqrt{2}-1$.</p>",
+    "check_html": "<p>Sin radical en el denominador ✔</p>"
+  },
+  {
+    "id": "sf06",
+    "title": "Ejercicio 22b",
+    "difficulty": "media",
+    "keywords": ["racionalización"],
+    "saberes_basicos": ["SB1"],
+    "problem_html": "<p>$\\frac{\\sqrt{3}}{2\\sqrt{2}}$</p>",
+    "strategy_html": "<p>Multiplicar por $\\sqrt{2}$.</p>",
+    "approach_html": "<p>Racionalizar.</p>",
+    "solution_steps": [
+      {
+        "step": 1,
+        "explanation_html": "<p>Multiplicamos.</p>",
+        "latex": "\\frac{\\sqrt{6}}{4}"
+      }
+    ],
+    "final_answer_html": "<p>$\\frac{\\sqrt{6}}{4}$.</p>",
+    "common_mistake_html": "<p>Olvidar multiplicar el denominador completo.</p>",
+    "check_html": "<p>Correctamente racionalizado.</p>"
+  },
+  {
+    "id": "sf07",
+    "title": "Ejercicio 22c",
+    "difficulty": "basica",
+    "keywords": ["racionalización"],
+    "saberes_basicos": ["SB1"],
+    "problem_html": "<p>$\\frac{2}{\\sqrt{3}}$</p>",
+    "strategy_html": "<p>Multiplicar por $\\sqrt{3}$.</p>",
+    "approach_html": "<p>Eliminar raíz.</p>",
+    "solution_steps": [
+      {
+        "step": 1,
+        "explanation_html": "<p>Racionalizamos.</p>",
+        "latex": "\\frac{2\\sqrt{3}}{3}"
+      }
+    ],
+    "final_answer_html": "<p>$\\frac{2\\sqrt{3}}{3}$.</p>",
+    "common_mistake_html": "<p>No racionalizar.</p>",
+    "check_html": "<p>Denominador racional ✔</p>"
+  }
+]
 }
