@@ -1,0 +1,419 @@
+{
+  "topic": {
+    "id": "numeros_reales",
+    "title": "Números reales, intervalos, valor absoluto, potencias, radicales y logaritmos",
+    "block": "Álgebra y análisis",
+    "course": "1.º Bachillerato",
+    "subject": "Matemáticas I",
+    "summary": "Este tema reúne los contenidos fundamentales de sentido numérico y algebraico: conjuntos numéricos, números decimales, fracción generatriz, intervalos, valor absoluto, operaciones con potencias y radicales, racionalización y logaritmos. También incluye simplificación algebraica y resolución de ejercicios básicos de desigualdades, ecuaciones y expresiones numéricas.",
+    "keywords": [
+      "números reales",
+      "naturales",
+      "enteros",
+      "racionales",
+      "irracionales",
+      "decimales",
+      "fracción generatriz",
+      "intervalos",
+      "valor absoluto",
+      "potencias",
+      "radicales",
+      "racionalización",
+      "logaritmos",
+      "simplificación algebraica"
+    ],
+    "saberes_basicos": ["SB1"],
+    "prerequisites": [
+      "operaciones con enteros y fracciones",
+      "jerarquía de operaciones",
+      "uso básico de potencias",
+      "noción elemental de ecuación"
+    ]
+  },
+  "theory_sections": [
+    {
+      "id": "tf01",
+      "title": "Conjuntos numéricos y clasificación de números",
+      "level": 1,
+      "keywords": [
+        "naturales",
+        "enteros",
+        "racionales",
+        "irracionales",
+        "reales"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<div class=\"ib ib-def\"><div class=\"ib-t\">📌 Definición</div><p>Los números reales $\\mathbb{R}$ incluyen a los números racionales e irracionales. Dentro de los racionales se encuentran, entre otros, los números enteros y naturales.</p></div><p>En este bloque se trabaja la clasificación de números en el conjunto más pequeño al que pertenecen.</p><ul><li>Naturales</li><li>Enteros</li><li>Racionales</li><li>Irracionales</li><li>Reales</li></ul><div class=\"ib ib-note\"><div class=\"ib-t\">✓ Tipos de ejercicios</div><ul><li>Clasificar números en el conjunto más pequeño al que pertenecen.</li><li>Identificar números dados mediante raíces, fracciones o expresiones decimales.</li><li>Distinguir decimales finitos, periódicos y no periódicos.</li><li>Reconocer raíces no reales cuando proceda.</li></ul></div>",
+      "common_mistakes": [
+        "Confundir número racional con número entero.",
+        "Pensar que todo número con raíz es irracional.",
+        "Olvidar que un decimal periódico siempre es racional."
+      ]
+    },
+    {
+      "id": "tf02",
+      "title": "Números decimales y fracción generatriz",
+      "level": 1,
+      "keywords": [
+        "decimal exacto",
+        "decimal periódico puro",
+        "decimal periódico mixto",
+        "fracción generatriz"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<p>Los números decimales pueden ser exactos, periódicos puros, periódicos mixtos o no periódicos.</p><div class=\"ib ib-def\"><div class=\"ib-t\">📌 Idea clave</div><p>Todo decimal exacto o periódico puede expresarse como fracción, llamada <strong>fracción generatriz</strong>.</p></div><div class=\"ib ib-teal\"><div class=\"ib-t\">🧭 Tipos de ejercicios</div><ul><li>Identificar el tipo de desarrollo decimal.</li><li>Calcular la fracción generatriz de un número decimal.</li><li>Operar con números decimales tras convertirlos en fracción.</li><li>Calcular raíces de números decimales periódicos o fraccionarios.</li></ul></div>",
+      "common_mistakes": [
+        "Clasificar un decimal periódico mixto como periódico puro.",
+        "Olvidar simplificar la fracción generatriz final.",
+        "Confundir decimal no periódico con decimal periódico largo."
+      ]
+    },
+    {
+      "id": "tf03",
+      "title": "Irracionales y geometría básica asociada",
+      "level": 2,
+      "keywords": [
+        "irracionales",
+        "geometría",
+        "radicales",
+        "triángulo equilátero",
+        "cuadrado inscrito"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<p>En geometría aparecen con frecuencia longitudes y áreas expresadas mediante radicales, por ejemplo $\\sqrt{2}$ o $\\sqrt{3}$.</p><div class=\"ib ib-note\"><div class=\"ib-t\">✓ Tipos de ejercicios</div><ul><li>Determinar si un resultado geométrico es racional o irracional.</li><li>Resolver problemas donde aparecen radicales en figuras planas.</li><li>Calcular el lado de un cuadrado inscrito en una circunferencia.</li><li>Calcular altura y área de un triángulo equilátero.</li></ul></div>",
+      "common_mistakes": [
+        "Dar por racional un resultado con radical no simplificable.",
+        "Cometer errores al aplicar Pitágoras en figuras elementales.",
+        "Confundir longitud con área al interpretar expresiones geométricas."
+      ]
+    },
+    {
+      "id": "tf04",
+      "title": "Intervalos y desigualdades simples",
+      "level": 1,
+      "keywords": [
+        "intervalos",
+        "desigualdades",
+        "unión",
+        "intersección",
+        "recta real"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<div class=\"ib ib-def\"><div class=\"ib-t\">📌 Definición</div><p>Un intervalo representa un subconjunto de $\\mathbb{R}$ y puede escribirse en notación intervalar, mediante desigualdades o sobre la recta real.</p></div><ul><li>Pasar de desigualdad a intervalo.</li><li>Pasar de intervalo a desigualdad.</li><li>Hallar uniones e intersecciones.</li><li>Representar gráficamente los conjuntos resultantes.</li><li>Expresar simultáneamente los resultados en recta real y en notación de intervalos.</li></ul>",
+      "common_mistakes": [
+        "Usar corchete donde debería ir paréntesis.",
+        "Confundir unión con intersección.",
+        "Representar mal los extremos abiertos y cerrados."
+      ]
+    },
+    {
+      "id": "tf05",
+      "title": "Valor absoluto",
+      "level": 1,
+      "keywords": [
+        "valor absoluto",
+        "ecuaciones",
+        "inecuaciones",
+        "distancia"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<p>El valor absoluto $|x-a|$ puede interpretarse como la distancia entre el número real $x$ y el punto $a$ en la recta real.</p><div class=\"ib ib-hint\"><div class=\"ib-t\">💡 Tipos de ejercicios</div><ul><li>Resolver ecuaciones con valor absoluto.</li><li>Resolver inecuaciones sencillas con valor absoluto.</li><li>Calcular valores absolutos de expresiones con enteros, $\\pi$ y radicales.</li><li>Interpretar geométricamente expresiones del tipo $|x-a|$.</li></ul></div>",
+      "common_mistakes": [
+        "Quitar barras de valor absoluto sin estudiar casos.",
+        "No interpretar el valor absoluto como distancia.",
+        "Perder soluciones o añadir soluciones no válidas."
+      ]
+    },
+    {
+      "id": "tf06",
+      "title": "Propiedades algebraicas y demostraciones elementales",
+      "level": 2,
+      "keywords": [
+        "identidades",
+        "fracciones",
+        "expresiones racionales",
+        "demostraciones"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<p>Este bloque trabaja justificaciones algebraicas sencillas y demostraciones elementales basadas en igualdades de fracciones y relaciones entre expresiones racionales.</p><ul><li>Demostrar identidades a partir de una igualdad de fracciones.</li><li>Justificar relaciones entre expresiones racionales bajo condiciones sobre los denominadores.</li></ul><div class=\"ib ib-warn\"><div class=\"ib-t\">⚠️ Advertencia</div><p>En toda manipulación algebraica con fracciones deben indicarse las restricciones sobre los denominadores.</p></div>",
+      "common_mistakes": [
+        "Multiplicar en cruz sin indicar condiciones de existencia.",
+        "Cancelar términos de forma incorrecta.",
+        "Olvidar las restricciones impuestas por los denominadores."
+      ]
+    },
+    {
+      "id": "tf07",
+      "title": "Operaciones numéricas combinadas",
+      "level": 1,
+      "keywords": [
+        "operaciones combinadas",
+        "fracciones",
+        "potencias negativas",
+        "jerarquía"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<p>Se trabajan expresiones numéricas que combinan enteros, fracciones, paréntesis y potencias.</p><div class=\"ib ib-note\"><div class=\"ib-t\">✓ Tipos de ejercicios</div><ul><li>Operaciones con enteros, fracciones y paréntesis.</li><li>Uso de potencias con exponente negativo.</li><li>Aplicación correcta de la jerarquía de operaciones.</li><li>Simplificación de expresiones numéricas.</li></ul></div>",
+      "common_mistakes": [
+        "Alterar la jerarquía de operaciones.",
+        "Tratar mal las potencias de exponente negativo.",
+        "No reducir fracciones al final del proceso."
+      ]
+    },
+    {
+      "id": "tf08",
+      "title": "Potencias",
+      "level": 1,
+      "keywords": [
+        "potencias",
+        "exponente entero",
+        "exponente racional",
+        "propiedades"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<div class=\"ib ib-def\"><div class=\"ib-t\">📌 Definición</div><p>Las propiedades de las potencias permiten simplificar productos, cocientes y potencias de potencias, así como reescribir expresiones con exponentes enteros o racionales.</p></div><ul><li>Simplificar usando propiedades de las potencias.</li><li>Reescribir expresiones en forma de potencia.</li><li>Operar con exponentes enteros y racionales.</li><li>Combinar productos, cocientes y potencias de potencias.</li><li>Realizar simplificación literal con letras y exponentes.</li></ul>",
+      "common_mistakes": [
+        "Sumar exponentes donde no corresponde.",
+        "Aplicar mal la potencia de una suma.",
+        "Confundir exponente negativo con signo negativo."
+      ]
+    },
+    {
+      "id": "tf09",
+      "title": "Radicales",
+      "level": 2,
+      "keywords": [
+        "radicales",
+        "potencia fraccionaria",
+        "índice",
+        "simplificación"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<p>Los radicales pueden entenderse como potencias de exponente fraccionario, por ejemplo $\\sqrt[n]{a^m}=a^{m/n}$ cuando las condiciones de existencia lo permiten.</p><div class=\"ib ib-teal\"><div class=\"ib-t\">🧭 Tipos de ejercicios</div><ul><li>Expresar radicales como potencias de exponente fraccionario.</li><li>Operar con radicales y dejar el resultado como un solo radical.</li><li>Resolver expresiones usando la definición de radical como potencia.</li><li>Simplificar radicales algebraicos.</li><li>Trabajar con radicales de distinto índice.</li></ul></div>",
+      "common_mistakes": [
+        "Sumar radicales no semejantes.",
+        "Olvidar simplificar el índice o el exponente.",
+        "Ignorar las condiciones de signo en radicales de índice par."
+      ]
+    },
+    {
+      "id": "tf10",
+      "title": "Racionalización",
+      "level": 2,
+      "keywords": [
+        "racionalización",
+        "conjugado",
+        "denominadores irracionales"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<p>Racionalizar consiste en transformar una fracción para eliminar radicales del denominador.</p><ul><li>Racionalizar denominadores con una sola raíz cuadrada.</li><li>Racionalizar productos con raíz.</li><li>Trabajar con raíces de distinto índice.</li><li>Racionalizar binomios con radicales usando conjugados.</li><li>Resolver casos con raíces cúbicas o de índice superior.</li></ul><div class=\"ib ib-hint\"><div class=\"ib-t\">💡 Estrategia</div><p>En expresiones binómicas suele utilizarse el conjugado. En otros casos conviene completar exponentes para convertir el denominador en una potencia exacta.</p></div>",
+      "common_mistakes": [
+        "Aplicar el conjugado cuando no corresponde.",
+        "Racionalizar solo parcialmente el denominador.",
+        "No simplificar la expresión resultante."
+      ]
+    },
+    {
+      "id": "tf11",
+      "title": "Simplificación algebraico-radical avanzada",
+      "level": 3,
+      "keywords": [
+        "simplificación",
+        "radicales algebraicos",
+        "expresiones mixtas",
+        "identidades notables"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<p>Este bloque reúne ejercicios extensos de simplificación con letras, fracciones, exponentes fraccionarios y radicales.</p><ul><li>Simplificar expresiones con radicales y potencias.</li><li>Operar con productos y cocientes de radicales algebraicos.</li><li>Trabajar con expresiones mixtas con radicales, fracciones, exponentes fraccionarios y letras.</li><li>Aplicar identidades notables con radicales.</li><li>Simplificar expresiones largas al máximo posible.</li></ul>",
+      "common_mistakes": [
+        "No factorizar antes de simplificar.",
+        "Combinar términos no equivalentes.",
+        "Perder restricciones de definición en expresiones literales."
+      ]
+    },
+    {
+      "id": "tf12",
+      "title": "Logaritmos",
+      "level": 2,
+      "keywords": [
+        "logaritmos",
+        "base 10",
+        "ln",
+        "propiedades",
+        "ecuaciones logarítmicas"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<div class=\"ib ib-def\"><div class=\"ib-t\">📌 Definición</div><p>Si $\\log_b a = c$, entonces $b^c=a$, con $b&gt;0$, $b\\neq 1$ y $a&gt;0$.</p></div><ul><li>Calcular logaritmos concretos.</li><li>Resolver ecuaciones del tipo $\\log_b a = c$.</li><li>Resolver igualdades exponenciales y logarítmicas.</li><li>Expresar logaritmos en base 10.</li><li>Aplicar propiedades de logaritmos en productos, cocientes y potencias.</li><li>Calcular expresiones con datos del tipo $\\log A$, $\\log B$ o $\\ln z$.</li><li>Escribir expresiones logarítmicas en función de un parámetro.</li><li>Comprobar identidades logarítmicas y discutir sus condiciones de validez.</li></ul>",
+      "common_mistakes": [
+        "Olvidar las condiciones de existencia del logaritmo.",
+        "Aplicar propiedades de logaritmos a sumas o restas.",
+        "Confundir logaritmo decimal con logaritmo neperiano."
+      ]
+    },
+    {
+      "id": "tf13",
+      "title": "Resumen de tipos dominantes del tema",
+      "level": 1,
+      "keywords": [
+        "resumen",
+        "tipos de ejercicios",
+        "tema 1"
+      ],
+      "saberes_basicos": ["SB1"],
+      "content_html": "<div class=\"ib ib-note\"><div class=\"ib-t\">✓ Resumen</div><ul><li>Clasificación de números</li><li>Decimales y fracción generatriz</li><li>Intervalos y valor absoluto</li><li>Potencias y radicales</li><li>Racionalización</li><li>Logaritmos</li><li>Simplificación algebraica</li></ul></div><p>Estos son los núcleos principales del tema y los tipos de ejercicios que más se repiten en la práctica.</p>",
+      "common_mistakes": [
+        "Estudiar los bloques por separado sin relacionarlos.",
+        "No distinguir entre técnica de cálculo y justificación algebraica."
+      ]
+    }
+  ],
+  "worked_examples": [],
+  "solved_exercises": [],
+  "flashcards": [
+    {
+      "id": "fc01",
+      "front": "¿Qué conjunto contiene a todos los números racionales e irracionales?",
+      "back": "El conjunto de los números reales, $\\mathbb{R}$."
+    },
+    {
+      "id": "fc02",
+      "front": "¿Qué tipo de decimal es siempre racional?",
+      "back": "Todo decimal exacto o periódico."
+    },
+    {
+      "id": "fc03",
+      "front": "¿Qué es la fracción generatriz?",
+      "back": "La fracción equivalente a un número decimal exacto o periódico."
+    },
+    {
+      "id": "fc04",
+      "front": "¿Cómo se interpreta geométricamente $|x-a|$?",
+      "back": "Como la distancia entre $x$ y $a$ en la recta real."
+    },
+    {
+      "id": "fc05",
+      "front": "¿Qué operación entre intervalos recoge solo los elementos comunes?",
+      "back": "La intersección."
+    },
+    {
+      "id": "fc06",
+      "front": "¿Qué significa racionalizar un denominador?",
+      "back": "Eliminar los radicales del denominador mediante transformaciones equivalentes."
+    },
+    {
+      "id": "fc07",
+      "front": "¿Cómo puede escribirse un radical en forma de potencia?",
+      "back": "$\\sqrt[n]{a^m}=a^{m/n}$, cuando esté definido."
+    },
+    {
+      "id": "fc08",
+      "front": "¿Qué relación existe entre $\\log_b a=c$ y la potenciación?",
+      "back": "Que $b^c=a$."
+    },
+    {
+      "id": "fc09",
+      "front": "¿Se puede aplicar una propiedad de logaritmos a una suma, como $\\log(a+b)$?",
+      "back": "No. Las propiedades habituales se aplican a productos, cocientes y potencias, no a sumas."
+    },
+    {
+      "id": "fc10",
+      "front": "¿Qué bloques dominan este tema?",
+      "back": "Clasificación de números, decimales, intervalos, valor absoluto, potencias, radicales, racionalización, logaritmos y simplificación algebraica."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "question_html": "¿Cuál de los siguientes tipos de decimal es <strong>no racional</strong>?",
+      "options": [
+        "Decimal exacto",
+        "Decimal periódico puro",
+        "Decimal periódico mixto",
+        "Decimal no periódico"
+      ],
+      "correct_index": 3,
+      "feedback_html": "El decimal no periódico no puede expresarse como fracción, por lo que es irracional."
+    },
+    {
+      "id": "q02",
+      "question_html": "La expresión $|x-a|$ representa:",
+      "options": [
+        "El producto de $x$ por $a$",
+        "La distancia entre $x$ y $a$",
+        "La media entre $x$ y $a$",
+        "El cuadrado de la diferencia"
+      ],
+      "correct_index": 1,
+      "feedback_html": "Geométricamente, $|x-a|$ mide la distancia entre dos puntos de la recta real."
+    },
+    {
+      "id": "q03",
+      "question_html": "¿Qué operación entre intervalos reúne todos los elementos que pertenecen a uno u otro conjunto?",
+      "options": [
+        "Intersección",
+        "Complementario",
+        "Unión",
+        "Valor absoluto"
+      ],
+      "correct_index": 2,
+      "feedback_html": "La unión de intervalos contiene los elementos que están en cualquiera de los intervalos."
+    },
+    {
+      "id": "q04",
+      "question_html": "Si $\\log_b a=c$, entonces:",
+      "options": [
+        "$a^b=c$",
+        "$b^c=a$",
+        "$c^b=a$",
+        "$a^c=b$"
+      ],
+      "correct_index": 1,
+      "feedback_html": "La definición de logaritmo indica que $\\log_b a=c$ equivale a $b^c=a$."
+    },
+    {
+      "id": "q05",
+      "question_html": "¿Qué técnica suele emplearse para racionalizar un binomio con radicales en el denominador?",
+      "options": [
+        "Elevar al cuadrado directamente",
+        "Aplicar la fracción generatriz",
+        "Multiplicar por el conjugado",
+        "Cambiarlo a logaritmo"
+      ],
+      "correct_index": 2,
+      "feedback_html": "En denominadores binómicos con radicales, la técnica habitual es multiplicar por el conjugado."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t01",
+      "title": "Mapa completo del Tema 1",
+      "status": "pending",
+      "due_date": "",
+      "type": "Síntesis escrita",
+      "points": 10,
+      "keywords": [
+        "resumen",
+        "clasificación",
+        "radicales",
+        "logaritmos"
+      ],
+      "saberes_basicos": ["SB1"],
+      "description_html": "<p>Elabora un esquema del Tema 1 que incluya:</p><ol><li>Clasificación de los conjuntos numéricos.</li><li>Tipos de decimales y fracción generatriz.</li><li>Intervalos, desigualdades y valor absoluto.</li><li>Propiedades de potencias y radicales.</li><li>Casos de racionalización.</li><li>Definición y propiedades básicas de los logaritmos.</li></ol><p>Incluye al menos un ejemplo propio de cada bloque.</p>"
+    },
+    {
+      "id": "t02",
+      "title": "Colección graduada de ejercicios del tema",
+      "status": "pending",
+      "due_date": "",
+      "type": "Práctica",
+      "points": 10,
+      "keywords": [
+        "ejercicios",
+        "práctica",
+        "tema 1"
+      ],
+      "saberes_basicos": ["SB1"],
+      "description_html": "<p>Prepara y resuelve una colección personal de ejercicios del Tema 1:</p><ul><li>2 de clasificación de números</li><li>2 de fracción generatriz</li><li>2 de intervalos o valor absoluto</li><li>2 de potencias o radicales</li><li>1 de racionalización</li><li>1 de logaritmos</li></ul><p>En cada ejercicio indica el procedimiento seguido y una comprobación final cuando sea posible.</p>"
+    }
+  ]
+}
