@@ -1,4 +1,25 @@
 [
+  
+  {
+    "id": "numeros_reales",
+    "title": "Números reales, intervalos, valor absoluto, potencias, radicales y logaritmos",
+    "block": "Álgebra y análisis",
+    "icon": "ℝ",
+    "description": "Clasificación de números, decimales, intervalos, valor absoluto, potencias, radicales, racionalización y logaritmos.",
+    "keywords": [
+      "números reales",
+      "intervalos",
+      "valor absoluto",
+      "potencias",
+      "radicales",
+      "racionalización",
+      "logaritmos",
+      "fracción generatriz",
+      "irracionales",
+      "desigualdades"
+    ],
+    "saberes_basicos": ["SB1"]
+  },
   {
     "id": "funciones",
     "title": "Funciones y sus características",
